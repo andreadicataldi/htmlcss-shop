@@ -23,7 +23,6 @@
   background: red;
 }
 .favourite {
-  display: none;
   position: absolute;
   text-align: center;
   bottom: 2%;

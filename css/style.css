@@ -1,0 +1,33 @@
+.row {
+  text-align: center;
+  margin-bottom: 1%;
+}
+
+.item {
+  display: inline-block;
+  position: relative;
+}
+
+.discount {
+  position: absolute;
+  width: 40px;
+  height: 20px;
+  top: 0px;
+  right: 0px;
+}
+
+.green {
+  background: green;
+}
+
+.red {
+  background: red;
+}
+
+.fa-heart {
+  position: absolute;
+  text-align: center;
+  bottom: 5%;
+  left: 48%;
+  color: red;
+}

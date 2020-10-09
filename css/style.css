@@ -2,12 +2,13 @@
   text-align: center;
   margin-bottom: 1%;
 }
-
 .item {
   display: inline-block;
   position: relative;
 }
-
+.item:hover .favourite {
+  display: block;
+}
 .discount {
   position: absolute;
   width: 40px;
@@ -15,15 +16,12 @@
   top: 0px;
   right: 0px;
 }
-
 .green {
   background: green;
 }
-
 .red {
   background: red;
 }
-
 .favourite {
   display: none;
   position: absolute;
@@ -33,8 +31,4 @@
   color: red;
   font-size: 2em;
   display: none;
-}
-
-.item:hover .favourite {
-  display: block;
 }

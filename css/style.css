@@ -24,10 +24,17 @@
   background: red;
 }
 
-.fa-heart {
+.favourite {
+  display: none;
   position: absolute;
   text-align: center;
-  bottom: 5%;
-  left: 48%;
+  bottom: 2%;
+  left: 49%;
   color: red;
+  font-size: 2em;
+  display: none;
+}
+
+.item:hover .favourite {
+  display: block;
 }
